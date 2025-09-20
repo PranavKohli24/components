@@ -19,7 +19,7 @@ function WeatherCard({ city, temperature, condition }) {
   return (
     <div style={cardStyle}>
       <h3>{city}</h3>
-      <div style={tempStyle}>{temperature}°C</div>
+      <div style={tempStyle}>Temp: {temperature}°C</div>
       <p>{condition}</p>
     </div>
   );
