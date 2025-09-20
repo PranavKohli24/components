@@ -16,7 +16,7 @@ const ProductCard = ({ image, name, price, stock }) => {
         style={{ width: "100%", height: "160px", objectFit: "cover" }}
       />
       <div style={{ padding: "12px" }}>
-        <h4 style={{ margin: "0 0 6px 0", fontSize: "16px" }}>{name}</h4>
+        <h4 style={{ margin: "0 0 6px 0", fontSize: "16px" }}>Name: {name}</h4>
         <p style={{ margin: "0 0 8px 0", color: "#555", fontSize: "14px" }}>
           ${price}
         </p>
