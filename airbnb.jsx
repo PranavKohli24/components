@@ -20,7 +20,7 @@ const ListingCard = ({ image, title, location, price }) => {
         <p style={{ margin: "0 0 8px 0", color: "#555", fontSize: "14px" }}>
           {location}
         </p>
-        <p style={{ margin: "0", fontWeight: "bold" }}>${price} / night</p>
+        <p style={{ margin: "0", fontWeight: "bold" }}>Price: ${price} / night</p>
       </div>
     </div>
   );
