@@ -1,1 +1,1 @@
-# react components/cards
+# react components and cards
