@@ -26,4 +26,5 @@ const ListingCard = ({ image, title, location, price }) => {
   );
 };
 
+
 export default ListingCard;
